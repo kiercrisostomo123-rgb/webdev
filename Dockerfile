@@ -1,7 +1,7 @@
 FROM php:8.2-apache
 
 # Enable SQLite extensions
-RUN docker-php-ext-install pdo pdo_sqlite sqlite3
+RUN docker-php-ext-install pdo pdo_sqlite
 
 # Copy project files into Apache web root
 COPY . /var/www/html/
