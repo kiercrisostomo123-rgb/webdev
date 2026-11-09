@@ -1,0 +1,31 @@
+body {
+    font-family:
+            'Inter',
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            sans-serif;
+}
+
+.bg-brand-green {
+    background-color: #004d34;
+}
+
+.text-brand-green {
+    color: #004d34;
+}
+
+.custom-input {
+    background-color: #fcfcfc;
+    border: 1px solid #282828;
+}
+
+.btn-outline {
+    border: 1px solid #004d34;
+    color: #004d34;
+}
+
+.logo-squircle {
+    border-radius: 12px;
+}
